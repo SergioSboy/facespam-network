@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/facespam-network/static/css/main.b5a0ca24.css",
-    "main.js": "/facespam-network/static/js/main.a017c915.js",
+    "main.js": "/facespam-network/static/js/main.76a4c57d.js",
     "static/css/672.37f9c639.chunk.css": "/facespam-network/static/css/672.37f9c639.chunk.css",
     "static/js/672.124b7e49.chunk.js": "/facespam-network/static/js/672.124b7e49.chunk.js",
     "static/css/569.bec0b623.chunk.css": "/facespam-network/static/css/569.bec0b623.chunk.css",
@@ -10,7 +10,7 @@
     "static/media/4.svg": "/facespam-network/static/media/4.8689e2f406dd2375232a923260fb836a.svg",
     "index.html": "/facespam-network/index.html",
     "main.b5a0ca24.css.map": "/facespam-network/static/css/main.b5a0ca24.css.map",
-    "main.a017c915.js.map": "/facespam-network/static/js/main.a017c915.js.map",
+    "main.76a4c57d.js.map": "/facespam-network/static/js/main.76a4c57d.js.map",
     "672.37f9c639.chunk.css.map": "/facespam-network/static/css/672.37f9c639.chunk.css.map",
     "672.124b7e49.chunk.js.map": "/facespam-network/static/js/672.124b7e49.chunk.js.map",
     "569.bec0b623.chunk.css.map": "/facespam-network/static/css/569.bec0b623.chunk.css.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.b5a0ca24.css",
-    "static/js/main.a017c915.js"
+    "static/js/main.76a4c57d.js"
   ]
 }
