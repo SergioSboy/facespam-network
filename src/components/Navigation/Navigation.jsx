@@ -15,7 +15,7 @@ const Navigation = () => {
             </div>
             <div>
                 <img src="https://www.iconpacks.net/icons/1/free-user-group-icon-296-thumb.png"/>
-                <a href='/users'>Users</a>
+                <NavLink to='/users'>Users</NavLink>
             </div>
             <div>
                 <img src="https://cdn-icons-png.flaticon.com/512/3799/3799802.png"/>
