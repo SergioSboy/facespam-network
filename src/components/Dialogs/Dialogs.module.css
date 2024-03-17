@@ -1,0 +1,38 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 5px 10fr;
+}
+.dialogs_items{
+    padding: 30px;
+    color: #BFD1E0;
+
+}
+.create_line{
+    border-left: 2px solid #2E3F4D;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.dialog{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.messages{
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    padding: 30px;
+    color: #BBBCBE;
+}
+
+.message{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.my_input{
+
+}
+
+.play{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}

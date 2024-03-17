@@ -1,0 +1,11 @@
+.play {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.my_btn {
+
+}
+.my_inp{
+    margin-left: 10px;
+}
