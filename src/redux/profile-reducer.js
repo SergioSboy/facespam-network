@@ -53,6 +53,7 @@ export const addPostActionCreator = (newPostText) => ({type: ADD_POST, newPostTe
 export const setStatus = (status) => ({type: SET_STATUS, status});
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
 export const deletePost = (postId) => ({type: DELETE_POST, postId});
+export const savePhotoSuccess = (photos) => ({type: DELETE_POST, photos});
 
 export const getUserProfile = (userId) => (dispatch) => {
     usersAPI.getProfile(userId)
@@ -77,6 +78,13 @@ export const updateStatus = (status) => (dispatch) => {
         });
 };
 
-
+export const savePhoto = (file) => (dispatch) => {
+    profileAPI.savePhoto(file)
+        .then(response => {
+            if (response.data.resultCode === 0){
+                dispatch(savePhotoSuccess(response.data));
+            }
+        });
+};
 
 export default profileReducer;
